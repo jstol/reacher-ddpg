@@ -226,3 +226,7 @@ dmypy.json
 .pytype/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all
+
+# Custom
+.DS_Store
+Reacher.app
