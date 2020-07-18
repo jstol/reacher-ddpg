@@ -87,9 +87,9 @@ def train_model():
     BATCH_SIZE = 64                         # The minibatch size to use during SGD
     UPDATE_FREQ = 5                         # How frequently (in terms of steps) the models should be updated
     NUM_INNER_UPDATE = 5                    # When updating the models, how many SGD steps to run
-    NOISE_STDEV = 1.0                       # The standard deviation to use when sampling noise (from a Normal dist.)
+    NOISE_STDEV = 1.0                       # The (initial) standard deviation to use when sampling noise (Normal dist.)
     MAX_REPLAY_SIZE = int(200e3)            # The maximum number of SARS' tuples to store during training (FIFO)
-    GAMMA = 0.99                            # The reward discount factor
+    GAMMA = 0.99                            # The future reward discount factor
     TAU = 1e-2                              # The (soft) mixing factor to use when updating target network weights
     LR_POLICY = 1e-3                        # The learning rate to use for the policy net ("Actor")
     LR_Q = 1e-2                             # The learning rate to use for the q net ("Critic")

@@ -49,7 +49,6 @@ class _FeedForward(nn.Module):
             layers += [
                 nn.Linear(h1, h2),
                 nn.ReLU(),
-                # nn.BatchNorm1d(h2),
             ]
 
         # Output
