@@ -4,7 +4,7 @@ agent to learn a policy that operates in continuous action spaces. In this proje
 ["Reacher" Unity ML Environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher).
 
 The goal in this environment is to train an agent that's capable of maneuvering a robotic arm such that its hand is
-located within the target region (seen as a green sphere in the GIFs above).
+located within the target region (seen as a green sphere).
 
 # Environment
 ## Observation Space
