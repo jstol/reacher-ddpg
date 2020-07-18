@@ -60,7 +60,7 @@ Contains functions for training and visualizing agents.
 ### `utils.py`
 Various utilities for managing the environment and training loop.
 
-## `output/`
+## `models/`
 Contains pretrained models.
 ### `policy_net.pth`
 A pre-trained Policy Net (Actor).
@@ -77,7 +77,7 @@ python3 main.py train
 
 To visualize:
 ```
-python3 main.py visualize output/policy_net.pth
+python3 main.py visualize models/policy_net.pth
 ```
 
 # References
